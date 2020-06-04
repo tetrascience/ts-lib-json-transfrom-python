@@ -1,12 +1,17 @@
 # JMesPathTransformer
-uncompleted code, only for reference 
+> uncompleted code, only for reference 
 
 This is a simple JSON transfomer based on JMESPath library. By providing a template, It will convert a JSON file into another JSON file in different format. 
 
-Usage:
-transform(input_json_file_name, template_json_file_name)
+## Usage
+### `transform(input_json_file_path, template_json_file_path)`
+* `input_json_file_path`: zzzz
+* `template_json_file_path`: zzzz
+* return: <dict>
 
-This will transform the input file. The result will be stored in a new file called 'output.json'
+
+#### Example
+
 
 Functions:
 transform: Transform an input Json file to an optimiazed format regarding the template
@@ -14,7 +19,7 @@ flatten: Do the traversal and flatten the input document to avoid nested diction
 isJmesPathString: Determines that a string value is a JmesPath if it ends with "$path"
 jmesPathValue: Performs a JmesPath query
 
-Problems: 
+## Problems: 
 Compared to the NodeJs version, this transformer:
   1. cannot deal with $each and $exist
   2. do not have an async traverse 

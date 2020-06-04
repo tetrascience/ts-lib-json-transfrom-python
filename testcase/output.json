@@ -25,5 +25,16 @@
         },
         "name": "Copy of Single Inject MTP384",
         "description": "{\\rtf1\\deff0{\\fonttbl{\\f0 Calibri;}{\\f1 Times New Roman;}{\\f2 Segoe UI;}}{\\colortbl ;\\red0\\green0\\blue255 ;}{\\*\\defchp \\f1\\fs24}{\\stylesheet {\\ql\\f1\\fs24 Normal;}{\\*\\cs1\\f1\\fs24 Default Paragraph Font;}{\\*\\cs2\\sbasedon1\\f2\\fs20 Line Number;}{\\*\\cs3\\ul\\f1\\fs24\\cf1 Hyperlink;}{\\*\\ts4\\tsrowd\\f1\\fs24\\ql\\tscellpaddfl3\\tscellpaddl108\\tscellpaddfb3\\tscellpaddfr3\\tscellpaddr108\\tscellpaddft3\\tsvertalt\\cltxlrtb Normal Table;}{\\*\\ts5\\tsrowd\\sbasedon4\\f1\\fs24\\ql\\trbrdrt\\brdrs\\brdrw10\\trbrdrl\\brdrs\\brdrw10\\trbrdrb\\brdrs\\brdrw10\\trbrdrr\\brdrs\\brdrw10\\trbrdrh\\brdrs\\brdrw10\\trbrdrv\\brdrs\\brdrw10\\tscellpaddfl3\\tscellpaddl108\\tscellpaddfr3\\tscellpaddr108\\tsvertalt\\cltxlrtb Table Simple 1;}}{\\*\\listoverridetable}\\nouicompat\\splytwnine\\htmautsp\\sectd\\pard\\plain\\ql{\\f2\\fs20\\cf0  }{\\lang1033\\langfe1033\\f2\\fs18\\cf0 This method will test systems performance. Please run this method and send your service engineer the resulting data.}\\lang1033\\langfe1033\\f2\\fs18\\par\\pard\\plain\\ql\\lang1033\\langfe1033\\f2\\fs18\\par\\pard\\plain\\ql\\lang1033\\langfe1033\\f2\\fs20\\par}"
+    },
+    "run": {
+        "log": [{
+            "name": "CycleStart",
+            "even_type": "CycleStart",
+            "sample_time": 0.9947779999999999,
+            "real_time": "2019-11-27T09:35:10.3634305+01:00",
+            "time_index": 0,
+            "batch_id": "d62312bf7c7843ed8b593270b7d1d916",
+            "message": "CycleStart"
+        }]
     }
 }
