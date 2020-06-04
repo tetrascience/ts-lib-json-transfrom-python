@@ -7,9 +7,6 @@
             "$path": "AssayData.UserName"
         }
     },
-    "time": {
-        "": ""
-    },
     "system": {
         "model": {
             "$path": "AssayData.InstrumentType"
@@ -43,5 +40,17 @@
         "description": {
             "$path": "AssayData.Method.Description"
         }
+    },
+    "run": {
+        "log": [{
+            "$each": "AssayData.DataEvents.DataEvent[*]",
+            "name": "AssayData.DataEvents.DataEvent[*].Name",
+            "even_type": "AssayData.DataEvents.DataEvent[*].EventType",
+            "sample_time": "AssayData.DataEvents.DataEvent[*].SampleTime | _to_number",
+            "real_time": "AssayData.DataEvents.DataEvent[*].RealTime",
+            "time_index": "AssayData.DataEvents.DataEvent[*].TimeIndex | _to_int",
+            "batch_id": "AssayData.DataEvents.DataEvent[*].BatchId",
+            "message": "AssayData.DataEvents.DataEvent[*].Message"
+        }]
     }
 }

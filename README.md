@@ -3,8 +3,18 @@ uncompleted code, only for reference
 
 This is a simple JSON transfomer based on JMESPath library. By providing a template, It will convert a JSON file into another JSON file in different format. 
 
-Usage:
-transform(input_json_file_name, template_json_file_name)
+
+## Usage
+### `transform(input_json_file_path, template_json_file_path)`
+* `input_json_file_path`: zzzz
+* `template_json_file_path`: zzzz
+* return: <dict>
+
+### $each
+
+### $map
+
+#### Example
 
 This will transform the input file. The result will be stored in a new file called 'output.json'
 
